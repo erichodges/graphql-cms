@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "description": "A GraphQL CMS that runs on your infrastructure.",
   "main": "webpack.config.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "build": "./node_modules/.bin/ts-node ./node_modules/.bin/webpack",
+    "test": "jest",
+    "start:temp": "tsc webpack.config.ts; yarn build; yarn start"
+  },
   "directories": {
     "src": "src"
   },
@@ -63,11 +69,6 @@
     "url-loader": "0.6.2",
     "webpack": "3.10.0",
     "webpack-dev-server": "2.11.0"
-  },
-  "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server",
-    "build": "./node_modules/.bin/ts-node ./node_modules/.bin/webpack",
-    "test": "jest"
   },
   "repository": {
     "type": "git",
