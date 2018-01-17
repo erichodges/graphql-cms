@@ -1,5 +1,7 @@
 # GraphQL CMS
 
+**[WIP]: This is under heavy, active development.**
+
 This is a fork of <a href="https://github.com/sarkistlt/graphql-auto-generating-cms">sarkistlt/graphql-auto-generating-cms</a>.
 
 ### Getting Started
