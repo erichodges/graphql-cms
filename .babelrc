@@ -1,0 +1,30 @@
+{
+  "presets": [
+    "react",
+    "stage-0",
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [">= 5%", "ie >= 11"]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-flow-comments"
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        "flow",
+        "minify"
+      ],
+      "plugins": [
+        "remove-comments"
+      ],
+      "compact": true,
+      "minified": true
+    }
+  }
+}
