@@ -4,9 +4,15 @@ This is a fork of <a href="https://github.com/sarkistlt/graphql-auto-generating-
 
 ### Getting Started
 
+TODO: Write instructions here. Also add deployment section
+
+### Contributing
+
+**Fork this repo.**
+
 **Clone the repo.**
 ```sh
-git clone git@github.com:iamclaytonray/graphql-auto-generating-cms.git graphql-cms
+git clone git@github.com:YOUR_USERNAME/graphql-cms.git
 ```
 
 **CD into the clone.**
@@ -25,3 +31,5 @@ yarn start
 ```
 
 Go to `localhost:8080` now!
+
+Please limit PRs to a single fix or feature.
